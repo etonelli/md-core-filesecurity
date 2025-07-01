@@ -73,7 +73,7 @@ function my_simple_file_upload_form_shortcode() {
             $headers = [
                 'User-Agent: OPSWAT MDCORE Plugin Wordpress',
                 'apikey: YOURKEY',
-                'rule: File Process per UPLOAD via APP',
+                'rule: YOUR WORKFLOW NAME',
                 "filename: {$_FILES['fileToUpload']['name']}"
             ];
             curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
