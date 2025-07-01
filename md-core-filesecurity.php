@@ -4,7 +4,7 @@
  * Description: Un plugin per validare i file prima del caricamento.
  * Version: 1.0
  * Author: Emilio Tonelli
- * License: GPL2
+ * License: GPL3
  */
 
 
